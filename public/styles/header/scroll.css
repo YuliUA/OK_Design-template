@@ -1,0 +1,15 @@
+.scroll-content {
+    margin-bottom: 50px
+  }
+  
+  .scroll-content a {
+    color: #000000;
+    transition: all .5s ease 0s;
+    padding: 20px;
+  }
+  
+  .scroll-content a:hover {
+    color: #fbf101;
+    text-decoration: none;
+    transform: translateY(-5px)
+  }

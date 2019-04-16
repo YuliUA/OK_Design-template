@@ -1,0 +1,34 @@
+  .portfolio-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0
+  }
+  .portfolio-menu_item{
+      width: 25%;
+      text-align: center;
+
+  }
+  .portfolio-menu_link{
+      font-size: 18px;
+      color: black;
+      text-transform: uppercase;
+      letter-spacing: normal;
+      font-weight: normal;
+      transition: all .3s ease-in-out;
+      padding: 5px;
+  }
+  
+  .portfolio-menu_link:hover{
+      text-decoration: none;
+      color: black;
+      letter-spacing: 2px;
+      font-weight: bolder;
+      transition: all .3s ease-in-out
+  }
+
+  @media (max-width: 3500px){
+    .portfolio-menu_link{
+      font-size: 14px;
+    }
+  }
